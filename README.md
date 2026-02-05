@@ -111,25 +111,25 @@ Tujuan pembuatan website ini adalah:
    ```
 
 ---
----
-
 ## Dokumentasi Tampilan Sistem
+
 
 ### 1. Dashboard / Halaman Utama
 Menampilkan daftar peminjaman ruangan yang telah diajukan oleh pengguna.
 
-![Dashboard SIPERKAM](public/images/dashboard.jpeg)
+![Dashboard SIPERKAM](./public/images/dashboard.jpeg)
 
 ---
 
 ### 2. Form Peminjaman Ruangan
 Digunakan oleh pengguna untuk mengajukan peminjaman ruangan kampus.
 
-![Form Peminjaman Ruangan](public/images/form-peminjaman.jpeg)
+![Form Peminjaman Ruangan](./public/images/form-peminjaman.jpeg)
 
 ---
 
 ### 3. Halaman Edit Peminjaman
 Digunakan untuk mengubah data peminjaman ruangan yang sudah diajukan.
 
-![Edit Peminjaman](public/images/edit-peminjaman.jpeg)
+![Edit Peminjaman](./public/images/edit-peminjaman.jpeg)
+
