@@ -1,53 +1,54 @@
-
 # SIPERKAM  
 ### Sistem Peminjaman Ruangan Kampus ITG
 
-## Nama Website
+---
+
+## a. Nama Website
 **SIPERKAM (Sistem Peminjaman Ruangan Kampus ITG)**
 
 ---
 
-## Teknologi yang Digunakan
+## b. Teknologi yang Digunakan
 Website ini dibangun menggunakan teknologi berikut:
 
-- **Backend Framework:** Laravel 12
-- **Bahasa Pemrograman:** PHP 8.2
-- **Database:** MySQL
-- **Frontend:** Blade Templating Engine
-- **UI Framework:** Bootstrap 5
-- **Authentication:** Laravel Authentication (Login & Register)
-- **Version Control:** Git & GitHub
-- **Web Server (Local):** Laravel Artisan Serve
+- **Backend Framework:** Laravel 12  
+- **Bahasa Pemrograman:** PHP 8.2  
+- **Database:** MySQL  
+- **Frontend:** Blade Templating Engine  
+- **UI Framework:** Bootstrap 5  
+- **Authentication:** Laravel Authentication (Login & Register)  
+- **Version Control:** Git & GitHub  
+- **Web Server (Local):** Laravel Artisan Serve  
 
 ---
 
-## Deskripsi & Tujuan Website
+## c. Deskripsi & Tujuan Website
 SIPERKAM adalah aplikasi berbasis web yang dirancang untuk membantu proses **peminjaman ruangan kampus Institut Teknologi Garut (ITG)** secara terstruktur, efisien, dan terdokumentasi dengan baik.
 
 Tujuan pembuatan website ini adalah:
 - Mempermudah mahasiswa atau civitas akademika dalam mengajukan peminjaman ruangan
-- Mengurangi proses manual (pencatatan di kertas)
-- Menyediakan sistem CRUD (Create, Read, Update, Delete) peminjaman ruangan
-- Mengimplementasikan konsep **MVC (Model–View–Controller)** pada framework Laravel
-- Memenuhi tugas mata kuliah Pemrograman Web berbasis Framework
+- Mengurangi proses manual (pencatatan berbasis kertas)
+- Menyediakan sistem CRUD (Create, Read, Update, Delete)
+- Mengimplementasikan konsep **MVC (Model–View–Controller)** menggunakan framework Laravel
+- Memenuhi tugas mata kuliah **Pemrograman Web Berbasis Framework**
 
 ---
 
-## Nama Kelompok
+## d. Nama Kelompok
 **Kelompok SIPERKAM**
 
 ---
 
-## Anggota Kelompok
+## e. Anggota Kelompok
 1. **Meitha Amanda**  
-   NIM: 2307005
-  
+   NIM: 2307005  
+
 2. **Ai Sena Marlina**  
-   2307017  
-  
+   NIM: 2307017  
+
 3. **Ai Hilma Khoiriyah**  
-   NIM: 2307022 
-   
+   NIM: 2307022  
+
 ---
 
 ## Fitur Utama Sistem
@@ -55,7 +56,7 @@ Tujuan pembuatan website ini adalah:
 - Manajemen Peminjaman Ruangan (CRUD)
 - Validasi Form Input
 - Integrasi Database MySQL
-- Tampilan UI Responsif dan User Friendly
+- Tampilan UI responsif dan user-friendly
 
 ---
 
@@ -68,7 +69,7 @@ Tujuan pembuatan website ini adalah:
 2. Masuk ke folder project:
 
    ```bash
-   cd siperkam
+   cd k1-siperkam
    ```
 
 3. Install dependency:
@@ -83,15 +84,15 @@ Tujuan pembuatan website ini adalah:
    cp .env.example .env
    ```
 
-5. Generate key:
+5. Generate application key:
 
    ```bash
    php artisan key:generate
    ```
 
-6. Atur database di file `.env`
+6. Konfigurasi database pada file `.env`
 
-7. Jalankan migrasi:
+7. Jalankan migrasi database:
 
    ```bash
    php artisan migrate
@@ -103,12 +104,11 @@ Tujuan pembuatan website ini adalah:
    php artisan serve
    ```
 
-9. Akses aplikasi:
+9. Akses aplikasi melalui browser:
 
    ```
    http://127.0.0.1:8000
    ```
-
 
 ---
 
@@ -117,22 +117,30 @@ Tujuan pembuatan website ini adalah:
 Berikut adalah beberapa tampilan utama dari aplikasi **SIPERKAM (Sistem Peminjaman Ruangan Kampus ITG)**:
 
 ### 1. Dashboard / Halaman Utama
+
 Menampilkan daftar peminjaman ruangan yang telah diajukan oleh pengguna.
 
-![dashboard](https://github.com/user-attachments/assets/e51a1724-8b89-4d98-acd1-d841f71ee71e)
-
+![Dashboard SIPERKAM](https://github.com/user-attachments/assets/e51a1724-8b89-4d98-acd1-d841f71ee71e)
 
 ---
 
 ### 2. Form Peminjaman Ruangan
+
 Digunakan oleh pengguna untuk mengajukan peminjaman ruangan kampus.
 
-![form peminjaman](https://github.com/user-attachments/assets/219255b4-339f-476e-adea-de2929d48dfa)
+![Form Peminjaman Ruangan](https://github.com/user-attachments/assets/219255b4-339f-476e-adea-de2929d48dfa)
 
 ---
 
 ### 3. Halaman Edit Peminjaman
+
 Digunakan untuk mengubah data peminjaman ruangan yang sudah diajukan.
 
-![edit peminjaman](https://github.com/user-attachments/assets/f2ba39e5-ee4f-497c-b19d-4221d6236d50)
+![Edit Peminjaman Ruangan](https://github.com/user-attachments/assets/f2ba39e5-ee4f-497c-b19d-4221d6236d50)
 
+````
+
+
+
+
+README kamu sekarang sudah **LAYAK KUMPUL & AMAN DINILAI** 👌
