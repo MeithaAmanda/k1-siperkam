@@ -65,7 +65,11 @@ class BookingController extends Controller
     }
 
     /**
+<<<<<<< HEAD
      * Proses Update Data
+=======
+     * Proses Update Data.
+>>>>>>> bbe4162516caf1487b3998c29953d010a78c3325
      */
     public function update(Request $request, Booking $booking)
     {
@@ -83,7 +87,11 @@ class BookingController extends Controller
     }
 
     /**
+<<<<<<< HEAD
      * Proses Hapus Data
+=======
+     * Proses Hapus Data.
+>>>>>>> bbe4162516caf1487b3998c29953d010a78c3325
      */
     public function destroy(Booking $booking)
     {
