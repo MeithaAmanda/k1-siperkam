@@ -110,3 +110,25 @@ Tujuan pembuatan website ini adalah:
    ```
 
 
+---
+---
+
+## Dokumentasi Tampilan Sistem
+
+Berikut adalah beberapa tampilan utama dari aplikasi **SIPERKAM (Sistem Peminjaman Ruangan Kampus ITG)**:
+
+### 1. Dashboard / Halaman Utama
+
+[![Dashboard SIPERKAM](public/images/dashboard.jpeg)](https://raw.githubusercontent.com/MeithaAmanda/k1-siperkam/c5c3736d6192405a0ffe92bbb0d4716c03355d54/public/images/dashboard.jpeg)
+
+---
+
+### 2. Form Peminjaman Ruangan
+
+[![Form Peminjaman Ruangan](public/images/form-peminjaman.jpeg)
+](https://raw.githubusercontent.com/MeithaAmanda/k1-siperkam/c5c3736d6192405a0ffe92bbb0d4716c03355d54/public/images/form%20peminjaman.jpeg)
+---
+
+### 3. Halaman Edit Peminjaman
+
+[![Edit Peminjaman Ruangan](public/images/edit-peminjaman.jpeg)](https://raw.githubusercontent.com/MeithaAmanda/k1-siperkam/c5c3736d6192405a0ffe92bbb0d4716c03355d54/public/images/edit%20peminjaman.jpeg)
