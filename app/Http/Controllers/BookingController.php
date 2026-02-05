@@ -7,9 +7,7 @@ use Illuminate\Http\Request;
 
 class BookingController extends Controller
 {
-    /**
-     * Menampilkan daftar peminjaman (Index).
-     */
+    
     public function index(Request $request)
     {
         $query = Booking::query();
