@@ -9,7 +9,6 @@ class BookingController extends Controller
 {
     /**
      * Menampilkan daftar peminjaman (Index).
-     * Logika pencarian akan digabung oleh Anggota 3.
      */
     public function index(Request $request)
     {
@@ -33,7 +32,7 @@ class BookingController extends Controller
     }
 
     /**
-     * TUGAS ANGGOTA 2: Proses Simpan Data dengan Validasi Ketat.
+     * Proses Simpan Data dengan Validasi Ketat.
      */
     public function store(Request $request)
     {
@@ -66,7 +65,7 @@ class BookingController extends Controller
     }
 
     /**
-     * TUGAS ANGGOTA 2: Proses Update Data.
+     * Proses Update Data
      */
     public function update(Request $request, Booking $booking)
     {
@@ -84,7 +83,7 @@ class BookingController extends Controller
     }
 
     /**
-     * TUGAS ANGGOTA 2: Proses Hapus Data.
+     * Proses Hapus Data
      */
     public function destroy(Booking $booking)
     {
