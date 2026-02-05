@@ -111,7 +111,6 @@ Tujuan pembuatan website ini adalah:
 
 
 ---
----
 
 ## Dokumentasi Tampilan Sistem
 
@@ -120,18 +119,20 @@ Berikut adalah beberapa tampilan utama dari aplikasi **SIPERKAM (Sistem Peminjam
 ### 1. Dashboard / Halaman Utama
 Menampilkan daftar peminjaman ruangan yang telah diajukan oleh pengguna.
 
-![Dashboard SIPERKAM](public/images/dashboard.jpeg)
+![dashboard](https://github.com/user-attachments/assets/e51a1724-8b89-4d98-acd1-d841f71ee71e)
+
 
 ---
 
 ### 2. Form Peminjaman Ruangan
 Digunakan oleh pengguna untuk mengajukan peminjaman ruangan kampus.
 
-![Form Peminjaman Ruangan](public/images/form-peminjaman.jpeg)
+![form peminjaman](https://github.com/user-attachments/assets/219255b4-339f-476e-adea-de2929d48dfa)
 
 ---
 
 ### 3. Halaman Edit Peminjaman
 Digunakan untuk mengubah data peminjaman ruangan yang sudah diajukan.
 
-![Edit Peminjaman Ruangan](public/images/edit-peminjaman.jpeg)
+![edit peminjaman](https://github.com/user-attachments/assets/f2ba39e5-ee4f-497c-b19d-4221d6236d50)
+
