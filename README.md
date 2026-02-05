@@ -113,7 +113,6 @@ Tujuan pembuatan website ini adalah:
 ---
 ## Dokumentasi Tampilan Sistem
 
-
 ### 1. Dashboard / Halaman Utama
 Menampilkan daftar peminjaman ruangan yang telah diajukan oleh pengguna.
 
@@ -124,7 +123,7 @@ Menampilkan daftar peminjaman ruangan yang telah diajukan oleh pengguna.
 ### 2. Form Peminjaman Ruangan
 Digunakan oleh pengguna untuk mengajukan peminjaman ruangan kampus.
 
-![Form Peminjaman Ruangan]![Form Peminjaman Ruangan](screenshots/form-peminjaman.png)
+![Form Peminjaman Ruangan](screenshots/form-peminjaman.png)
 
 ---
 
