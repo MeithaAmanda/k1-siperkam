@@ -9,6 +9,9 @@ class Booking extends Model
 {
     use HasFactory;
 
+    /**
+     * Mendefinisikan kolom yang dapat diisi secara massal (Mass Assignment).
+     */
     protected $fillable = [
         'nama_peminjam',
         'nim',
@@ -16,5 +19,12 @@ class Booking extends Model
         'tanggal_pinjam',
         'tujuan',
         'status',
+    ];
+
+    /**
+     * Default nilai untuk kolom tertentu jika diperlukan.
+     */
+    protected $attributes = [
+        'status' => 'Pending',
     ];
 }
