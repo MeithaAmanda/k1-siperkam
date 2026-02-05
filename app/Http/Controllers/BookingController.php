@@ -36,11 +36,11 @@ class BookingController extends Controller
      */
     public function store(Request $request)
     {
-        // Validasi Form sesuai best practice
+        // Validasi Form
         $validatedData = $request->validate([
             'nama_peminjam'  => 'required|string|max:255',
-            'nim'            => 'required|numeric|digits_between:8,15',
-            'ruangan'        => 'required|in:Aula ITG,Lab Komputer,Ruang Kelas A1',
+            'nim'            => 'required|numeric|digits:7',
+            'ruangan'        => 'required|in:Aula Multimedia,Lab Komputer,Gedung D,Gedung F,Parkiran',
             'tanggal_pinjam' => 'required|date|after_or_equal:today',
             'tujuan'         => 'required|string|min:10',
         ], [

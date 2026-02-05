@@ -21,12 +21,9 @@
                 <div class="flex items-center space-x-4">
                     <div class="text-right hidden sm:block">
                         <p class="text-xs text-slate-400 font-semibold uppercase tracking-wider">Mahasiswa ITG</p>
-                        <p class="text-sm font-bold text-slate-700">{{ Auth::user()->name }}</p>
                     </div>
-                    <form action="{{ route('logout') }}" method="POST">
                         @csrf
                         <button type="submit" class="bg-slate-100 text-slate-600 p-2 rounded-full hover:bg-red-50 hover:text-red-600 transition duration-300">
-                            <i class="fa-solid fa-power-off"></i>
                         </button>
                     </form>
                 </div>

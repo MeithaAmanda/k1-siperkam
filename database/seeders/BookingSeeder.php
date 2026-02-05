@@ -12,22 +12,21 @@ class BookingSeeder extends Seeder
      */
     public function run(): void
     {
-        // Data Dummy untuk testing dashboard ITG
         Booking::create([
-            'nama_peminjam' => 'Meitha Amanda',
+            'nama_peminjam' => 'Jeon Jungkook',
             'nim' => '2206001',
             'ruangan' => 'Lab Komputer',
             'tanggal_pinjam' => now()->format('Y-m-d'),
-            'tujuan' => 'Praktikum Pemrograman Web Kelompok 1',
+            'tujuan' => 'Praktikum Pemrograman Web',
             'status' => 'Disetujui',
         ]);
 
         Booking::create([
-            'nama_peminjam' => 'Budi Santoso',
+            'nama_peminjam' => 'Min Yoongi',
             'nim' => '2206002',
-            'ruangan' => 'Aula ITG',
+            'ruangan' => 'Aula Multimedia',
             'tanggal_pinjam' => now()->addDays(2)->format('Y-m-d'),
-            'tujuan' => 'Seminar Himpunan Mahasiswa Sistem Informasi',
+            'tujuan' => 'Seminar Himpunan',
             'status' => 'Pending',
         ]);
     }

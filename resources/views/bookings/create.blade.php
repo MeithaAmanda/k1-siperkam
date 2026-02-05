@@ -32,7 +32,7 @@
                             </span>
                             <input type="text" name="nama_peminjam" value="{{ old('nama_peminjam') }}" 
                                 class="w-full pl-10 pr-4 py-3 rounded-xl border border-slate-200 focus:ring-2 focus:ring-blue-500 focus:border-blue-500 outline-none transition" 
-                                placeholder="Contoh: Meitha Amanda">
+                                placeholder="Masukkan Nama Lengkap Anda">
                         </div>
                         @error('nama_peminjam')
                             <p class="mt-1 text-xs text-red-500 font-medium italic">{{ $message }}</p>
@@ -45,9 +45,11 @@
                             <span class="absolute inset-y-0 left-0 pl-3 flex items-center text-slate-400">
                                 <i class="fa-solid fa-id-card"></i>
                             </span>
-                            <input type="text" name="nim" value="{{ old('nim') }}"
+                           <input type="text" name="nim" value="{{ old('nim') }}"
+                                maxlength="7" 
+                                oninput="this.value = this.value.replace(/[^0-9.]/g, '').slice(0, 7);"
                                 class="w-full pl-10 pr-4 py-3 rounded-xl border border-slate-200 focus:ring-2 focus:ring-blue-500 focus:border-blue-500 outline-none transition" 
-                                placeholder="Masukkan NIM Anda">
+                                placeholder="Contoh: 2206001">
                         </div>
                         @error('nim')
                             <p class="mt-1 text-xs text-red-500 font-medium italic">{{ $message }}</p>
@@ -63,9 +65,12 @@
                                 <i class="fa-solid fa-door-closed"></i>
                             </span>
                             <select name="ruangan" class="w-full pl-10 pr-4 py-3 rounded-xl border border-slate-200 focus:ring-2 focus:ring-blue-500 focus:border-blue-500 outline-none transition appearance-none bg-white">
-                                <option value="Aula ITG">Aula ITG</option>
+                                <option value="">Pilih Ruangan</option>
+                                <option value="Aula Multimedia">Aula Multimedia</option>
                                 <option value="Lab Komputer">Lab Komputer</option>
-                                <option value="Ruang Kelas A1">Ruang Kelas A1</option>
+                                <option value="Gedung D">Gedung D</option>
+                                <option value="Gedung F">Gedung F</option>
+                                <option value="Parkiran ">Parkiran </option>
                             </select>
                         </div>
                     </div>

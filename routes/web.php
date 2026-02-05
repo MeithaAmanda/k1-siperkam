@@ -1,7 +1,7 @@
 <?php
 
-use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\BookingController;
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', [BookingController::class, 'index']); 
+
+Route::resource('bookings', BookingController::class);

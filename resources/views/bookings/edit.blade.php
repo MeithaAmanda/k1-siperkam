@@ -69,9 +69,11 @@
                                 <i class="fa-solid fa-door-closed"></i>
                             </span>
                             <select name="ruangan" class="w-full pl-10 pr-4 py-3 rounded-xl border border-slate-200 focus:ring-2 focus:ring-amber-500 focus:border-amber-500 outline-none transition appearance-none bg-white">
-                                <option value="Aula ITG" {{ $booking->ruangan == 'Aula ITG' ? 'selected' : '' }}>Aula ITG</option>
+                                <option value="Aula Multimedia" {{ $booking->ruangan == 'Aula Multimedia' ? 'selected' : '' }}>Aula Multimedia</option>
                                 <option value="Lab Komputer" {{ $booking->ruangan == 'Lab Komputer' ? 'selected' : '' }}>Lab Komputer</option>
-                                <option value="Ruang Kelas A1" {{ $booking->ruangan == 'Ruang Kelas A1' ? 'selected' : '' }}>Ruang Kelas A1</option>
+                                <option value="Gedung D" {{ $booking->ruangan == 'Gedung D' ? 'selected' : '' }}>Gedung D</option>
+                                <option value="Gedung F" {{ $booking->ruangan == 'Gedung F' ? 'selected' : '' }}>Gedung F</option>
+                                <option value="Parkiran " {{ $booking->ruangan == 'Parkiran ' ? 'selected' : '' }}>Parkiran </option>
                             </select>
                         </div>
                     </div>
