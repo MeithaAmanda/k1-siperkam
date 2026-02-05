@@ -138,9 +138,3 @@ Digunakan untuk mengubah data peminjaman ruangan yang sudah diajukan.
 
 ![Edit Peminjaman Ruangan](https://github.com/user-attachments/assets/f2ba39e5-ee4f-497c-b19d-4221d6236d50)
 
-````
-
-
-
-
-README kamu sekarang sudah **LAYAK KUMPUL & AMAN DINILAI** 👌
