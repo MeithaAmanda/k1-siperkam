@@ -117,19 +117,18 @@ Tujuan pembuatan website ini adalah:
 ### 1. Dashboard / Halaman Utama
 Menampilkan daftar peminjaman ruangan yang telah diajukan oleh pengguna.
 
-![Dashboard SIPERKAM](https://raw.githubusercontent.com/MeithaAmanda/k1-siperkam/main/public/images/dashboard.jpeg)
-
+![Dashboard SIPERKAM](screenshots/dashboard.png)
 
 ---
 
 ### 2. Form Peminjaman Ruangan
 Digunakan oleh pengguna untuk mengajukan peminjaman ruangan kampus.
 
-![Form Peminjaman Ruangan](https://raw.githubusercontent.com/MeithaAmanda/k1-siperkam/main/public/images/form-peminjaman.jpeg)
+![Form Peminjaman Ruangan]![Form Peminjaman Ruangan](screenshots/form-peminjaman.png)
 
 ---
 
 ### 3. Halaman Edit Peminjaman
 Digunakan untuk mengubah data peminjaman ruangan yang sudah diajukan.
 
-![Edit Peminjaman](https://raw.githubusercontent.com/MeithaAmanda/k1-siperkam/main/public/images/edit-peminjaman.jpeg)
+![Edit Peminjaman](screenshots/edit-peminjaman.png)
