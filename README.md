@@ -3,12 +3,12 @@
 
 ---
 
-## a. Nama Website
+## Nama Website
 **SIPERKAM (Sistem Peminjaman Ruangan Kampus ITG)**
 
 ---
 
-## b. Teknologi yang Digunakan
+## Teknologi yang Digunakan
 Website ini dibangun menggunakan teknologi berikut:
 
 - **Backend Framework:** Laravel 12  
@@ -22,7 +22,7 @@ Website ini dibangun menggunakan teknologi berikut:
 
 ---
 
-## c. Deskripsi & Tujuan Website
+## Deskripsi & Tujuan Website
 SIPERKAM adalah aplikasi berbasis web yang dirancang untuk membantu proses **peminjaman ruangan kampus Institut Teknologi Garut (ITG)** secara terstruktur, efisien, dan terdokumentasi dengan baik.
 
 Tujuan pembuatan website ini adalah:
@@ -34,21 +34,18 @@ Tujuan pembuatan website ini adalah:
 
 ---
 
-## d. Nama Kelompok
+## Nama Kelompok
 **Kelompok SIPERKAM**
 
 ---
 
-## e. Anggota Kelompok
-1. **Meitha Amanda**  
-   NIM: 2307005  
+## Anggota Kelompok
 
-2. **Ai Sena Marlina**  
-   NIM: 2307017  
-
-3. **Ai Hilma Khoiriyah**  
-   NIM: 2307022  
-
+| No | Nama Lengkap           | NIM     |
+|----|------------------------|---------|
+| 1  | Meitha Amanda          | 2307005 |
+| 2  | Ai Sena Marlina        | 2307017 |
+| 3  | Ai Hilma Khoiriyah     | 2307022 |
 ---
 
 ## Fitur Utama Sistem
